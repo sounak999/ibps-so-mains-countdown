@@ -5,14 +5,14 @@ const exams = [
     title: 'IBPS SO IT Officer Mains',
     target: 'IBPS SO<br /><strong>IT Officer</strong>',
     date: '2026-11-01T09:00:00+05:30',
-    startDate: '2026-01-01T00:00:00+05:30'
+    startDate: '2026-08-29T00:00:00+05:30'
   },
   {
     shortName: 'RRB SO MAINS',
     title: 'RRB SO IT Officer Mains',
     target: 'RRB SO<br /><strong>IT Officer</strong>',
     date: '2026-12-27T09:00:00+05:30',
-    startDate: '2026-01-01T00:00:00+05:30'
+    startDate: '2026-09-01T00:00:00+05:30'
   },
   // Add future exams here:
   // { shortName: 'EXAM 3', title: 'Your third exam', target: 'Exam<br /><strong>Three</strong>', date: '2027-03-15T09:00:00+05:30', startDate: '2026-11-02T00:00:00+05:30' },
@@ -56,7 +56,7 @@ function renderTabs() {
   }));
 }
 
-document.getElementById('today').textContent = new Intl.DateTimeFormat('en-IN', { day: '2-digit', month: 'short', year: 'numeric' }).format(new Date()).toUpperCase();
+document.getElementById('today').textContent = new Intl.DateTimeFormat('en-IN', { day: '2-digit', month: 'short', year: 'numeric }).format(new Date()).toUpperCase();
 renderTabs();
 updateCountdown();
 setInterval(updateCountdown, 1000);
