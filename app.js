@@ -51,8 +51,9 @@ function updateCountdown() {
     remaining %= size;
     const el = safeGet(name);
     if (!el) return;
-    // days shown as 3 digits in markup, others 2
-    el.textContent = pad(amount, name === 'days' ? 3 : 2);
+    // days: show 3 digits only when amount >= 100, otherwise 2; others always 2
+    const length = name === 'days' ? (amount >= 100 ? 3 : 2) : 2;
+    el.textContent = pad(amount, length);
   });
 
   // Update progress bar and label safely
