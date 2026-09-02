@@ -7,8 +7,15 @@ const exams = [
     date: '2026-11-01T09:00:00+05:30',
     startDate: '2026-01-01T00:00:00+05:30'
   },
-  // Example:
-  // { shortName: 'EXAM 2', title: 'Your second exam', target: 'Exam<br /><strong>Two</strong>', date: '2027-03-15T09:00:00+05:30', startDate: '2026-11-02T00:00:00+05:30' },
+  {
+    shortName: 'RRB SO MAINS',
+    title: 'RRB SO IT Officer Mains',
+    target: 'RRB SO<br /><strong>IT Officer</strong>',
+    date: '2026-12-27T09:00:00+05:30',
+    startDate: '2026-01-01T00:00:00+05:30'
+  },
+  // Add future exams here:
+  // { shortName: 'EXAM 3', title: 'Your third exam', target: 'Exam<br /><strong>Three</strong>', date: '2027-03-15T09:00:00+05:30', startDate: '2026-11-02T00:00:00+05:30' },
 ];
 
 let activeExam = 0;
