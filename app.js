@@ -1,17 +1,18 @@
 // Add future exams here. Each object automatically receives its own navigation tab.
 const exams = [
-  {
-    shortName: 'IBPS SO MAINS',
-    title: 'IBPS SO IT Officer Mains',
-    target: 'IBPS SO<br /><strong>IT Officer</strong>',
-    date: '2026-11-01T09:00:00+05:30',
-    startDate: '2026-08-29T00:00:00+05:30'
-  },
+  // IBPS SO Mains is complete; retained here for reference.
+  // {
+  //   shortName: 'IBPS SO MAINS',
+  //   title: 'IBPS SO IT Officer Mains',
+  //   target: 'IBPS SO<br /><strong>IT Officer</strong>',
+  //   date: '2026-11-01T09:00:00+05:30',
+  //   startDate: '2026-08-29T00:00:00+05:30'
+  // },
   {
     shortName: 'RRB SO MAINS',
     title: 'RRB SO IT Officer Mains',
     target: 'RRB SO<br /><strong>IT Officer</strong>',
-    date: '2026-12-27T09:00:00+05:30',
+    date: '2026-12-20T09:00:00+05:30',
     startDate: '2026-09-01T00:00:00+05:30'
   },
   // Add future exams here as objects
